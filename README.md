@@ -17,7 +17,7 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credit to: https://www.tutorialspoint.com/how-to-clear-screen-in-python
 
 ### Modifications
 7/9/2021	Andres Cerda	Code submitted for evaluation.
