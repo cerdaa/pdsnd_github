@@ -303,8 +303,17 @@ def main():
     while True:
         screen_clear()
         print('-'*80)
+<<<<<<< HEAD
         print('-'*25 + ' US Bikeshare Analytical Tool ' + '-'*25)
 
+||||||| parent of f87c57e (CODE CHANGE - Added a line after the main title)
+        print('-'*25 + ' US Bikeshare Analytical Tool ' + '-'*25)       
+    
+=======
+        print('-'*25 + ' US Bikeshare Analytical Tool ' + '-'*25)
+        print('-'*80)
+
+>>>>>>> f87c57e (CODE CHANGE - Added a line after the main title)
         selection = menu(MAIN_MENU, "Main Menu", "Enter your selection", 0, 1)
 
         if selection == 0:
