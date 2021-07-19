@@ -136,7 +136,7 @@ def display_row_data(df):
     """
 
     while True:
-        continue_flag = input('Press 0 to continue running stats, 1 to view raw data or 2 to exit to main menu: ')
+        continue_flag = input('Press 0 to continue running stats, 1 to view raw data or 2 to exit to the main menu: ')
         try:
             continue_flag = int(continue_flag)
         except:
