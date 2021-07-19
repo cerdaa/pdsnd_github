@@ -1,6 +1,9 @@
 ### Date created
 6/14/2021
 
+## Author
+Andres Cerda
+
 ### Project Title
 Bikeshare Statistical Analysis
 
@@ -16,3 +19,4 @@ washington.csv
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+### Modifications
