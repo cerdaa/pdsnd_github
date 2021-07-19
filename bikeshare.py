@@ -197,7 +197,6 @@ def time_stats(df):
     print('The most common start hour is: ' + str(df['start_hour'].value_counts().idxmax()) + ':00')
     print('The number of incidences at that hour is: '+ str(df['start_hour'].value_counts().max()))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
     return display_row_data(df)
@@ -226,7 +225,6 @@ def station_stats(df):
     print('The most frequent combination of start and end station is: ' + str(df.groupby(['Start Station'])['End Station'].value_counts().idxmax()))
     print('The number of incidences of such combination is: ' + str(df.groupby(['Start Station'])['End Station'].value_counts().max()))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
     return display_row_data(df)
@@ -254,7 +252,6 @@ def trip_duration_stats(df):
     # TO DO: display mean travel time
     print('The mean travel time is: ' + "{:.2f}".format(df['Trip Duration'].mean()/60) + ' min')
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
     return display_row_data(df)
@@ -293,7 +290,6 @@ def user_stats(df):
     except:
         print('This city does not have birthday information')
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
     return display_row_data(df)
 
